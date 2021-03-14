@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane layoutY="98.0" prefHeight="404.0" prefWidth="496.0" style="-fx-background-color: #fafafa;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="98.0">
+         <children>
+            <ComboBox fx:id="cmbUserId" layoutX="226.0" layoutY="14.0" onAction="#Select" prefWidth="150.0" style="-fx-border-radius: 6;" />
+            <Text layoutX="122.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пользователь" wrappingWidth="104.13232421875" AnchorPane.bottomAnchor="318.0" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="19.0" />
+            <TextField fx:id="userName" editable="false" layoutX="15.0" layoutY="47.0" prefHeight="26.0" prefWidth="468.0" promptText="Имя" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="13.0" />
+            <TextField fx:id="userEmail" editable="false" layoutX="15.0" layoutY="85.0" prefHeight="26.0" prefWidth="468.0" promptText="Email" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="13.0" />
+            <TextField fx:id="userPhone" editable="false" layoutX="15.0" layoutY="125.0" prefHeight="26.0" prefWidth="468.0" promptText="Телефон" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="13.0" />
+            <TextField fx:id="userWebsite" editable="false" layoutX="15.0" layoutY="167.0" prefHeight="26.0" prefWidth="468.0" promptText="Сайт" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="13.0" />
+            <TextArea fx:id="userCompany" editable="false" layoutX="14.0" layoutY="204.0" prefHeight="58.0" prefWidth="468.0" promptText="Компания" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" wrapText="true" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+            <TextArea fx:id="userAddress" editable="false" layoutX="14.0" layoutY="272.0" prefHeight="67.0" prefWidth="468.0" promptText="Адрес" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 6;" wrapText="true" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="104.0" layoutY="9.0" prefHeight="89.0" prefWidth="289.0" text="1C-КОННЕКТ" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
